@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <!--Created by Shaheer Siddiqui
 	IT5443 
-	Milestone 1 
+	Milestone 1
 	2/9/2018 -->
 <html>
 <head>
@@ -11,7 +11,10 @@
 <body>
 
 <div class="header">
-	<?php include 'header_comp.php';?>
+	<a href="http://ccse.kennesaw.edu/it" target="_blank">
+		<img src="img/kennesaw-state-university-logo.png" alt="Kennesaw State University" id="logo"/>
+	</a>
+	<h1 id="title">Center for Applied Research in Information Technology</h1>
 </div>
 <div class="container">
 	<div class="colmid">
@@ -45,7 +48,13 @@
 			</div>
 			<div class="col2">
 				<!-- Column 2 start -->
-				<?php include 'menu_comp.php';?>
+				<p id="menu_header">Menu</p>
+				<ul class="menu">
+					<a href="index.htm"> <li class="menu">Home Page</li> </a>
+					<a href="about_us.htm"><li class="menu">About Us</li> </a>
+					<a href="events.htm"><li class="menu">Events</li> </a>
+					<a href="job.htm"><li class="menu">Openings</li> </a>
+				</ul>
 				<!-- Column 2 end -->
 			</div>
 			<div class="col3">
@@ -57,7 +66,7 @@
 	</div>
 </div>
 <div class="footer">
-	<?php include 'footer_comp.php';?>
+	<p>Disclaimer: This website is for a class project</p>
 </div>
 
 </body>
